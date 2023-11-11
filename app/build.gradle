@@ -3,16 +3,18 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
+apply from: "config.gradle"
+
 android {
-    namespace 'com.leomarkpawaty.todoapp'
-    compileSdk 33
+    namespace configs.applicationId
+    compileSdk configs.compileSdk
 
     defaultConfig {
-        applicationId "com.leomarkpawaty.todoapp"
-        minSdk 24
-        targetSdk 33
-        versionCode 1
-        versionName "1.0"
+        applicationId configs.applicationId
+        minSdk configs.minSdk
+        targetSdk configs.targetSdk
+        versionCode configs.versionCode
+        versionName configs.versionName
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
