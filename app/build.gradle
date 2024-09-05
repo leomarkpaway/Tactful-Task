@@ -1,9 +1,11 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
 }
 
 apply from: "config.gradle"
+apply from: "dependencies.gradle"
 
 android {
     namespace configs.applicationId
@@ -36,11 +38,32 @@ android {
 
 dependencies {
 
-    implementation 'androidx.core:core-ktx:1.8.0'
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.5.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
-    testImplementation 'junit:junit:4.13.2'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    // Common
+    implementation androidx.core_ktx
+    implementation androidx.appcompat
+
+    // Common test junit
+    testImplementation junit_test.junit
+    androidTestImplementation junit_test.ext_junit
+    androidTestImplementation junit_test.espresso_core
+
+    // Material design
+    implementation google.material
+
+    // Navigation
+    implementation navigation.fragment
+    implementation navigation.ui
+
+    // Room
+    implementation room.runtime
+    kapt room.compiler
+    implementation room.ktx
+    testImplementation room.testing
+
+    // Recycler view
+    implementation recyclerview
+
+    // Timber log
+    implementation tiber_log
+
 }
