@@ -3,7 +3,7 @@ ext.configs = [
         applicationId       : "com.leomarkpaway.todoapp",
         versionCode         : 1,
         versionName         : "1.0",
-        minSdk              : 24,
+        minSdk              : 26,
         targetSdk           : 34,
         compileSdk          : 34,
 ]
