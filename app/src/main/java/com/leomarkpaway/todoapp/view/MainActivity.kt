@@ -1,7 +1,8 @@
-package com.leomarkpaway.todoapp
+package com.leomarkpaway.todoapp.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.leomarkpaway.todoapp.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
