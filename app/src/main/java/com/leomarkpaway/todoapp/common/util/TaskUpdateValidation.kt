@@ -1,5 +1,6 @@
 package com.leomarkpaway.todoapp.common.util
 
+import com.leomarkpaway.todoapp.data.source.local.entity.Task
 import java.util.Calendar
 
 fun isTaskUpdatedValue(oldTask: Task, newTask: Task) : Boolean {
