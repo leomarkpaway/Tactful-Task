@@ -2,7 +2,9 @@
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Platform](https://img.shields.io/badge/platform-Android-green.svg)](https://developer.android.com) [![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]()
 
-Tactful Task is a smart task management app designed to help you stay organized and productive. Whether you need to plan your day, set reminders, or prioritize important tasks, Tactful Task makes it simple and efficient.
+**Tactful Task** started as a simple to-do app, designed to help users manage everyday tasks. As I continue development, I am currently adding new features and enhancing the UI using the latest technologies, including Jetpack Compose. The app already offers essential functionality such as task scheduling, notification reminders, and task pinning, and it is evolving into a more versatile and feature-rich productivity tool.
+
+With these enhancements, the app gained its own identity, and I decided to name it **Tactful Task**—a smart task manager that goes beyond the basics. In addition to adding new features, I am migrating the app’s architecture from MVVM to MVI, which is better suited for Jetpack Compose's reactive UI model. This transition will help improve state management and make the app more scalable and maintainable.
 
 ## 🎯 **Features**
 
