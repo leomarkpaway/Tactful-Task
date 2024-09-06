@@ -3,6 +3,7 @@ package com.leomarkpaway.todoapp.di
 import android.app.AlarmManager
 import android.app.PendingIntent
 import android.content.Context
+import com.leomarkpaway.todoapp.receiver.Receiver
 import com.leomarkpaway.todoapp.common.enum.IntentAction
 import com.leomarkpaway.todoapp.common.extension.getReminderMillis
 import com.leomarkpaway.todoapp.common.extension.pendingIntentReceiver
