@@ -19,14 +19,28 @@ Continually working to make Tactful Task even better. Here are some exciting fea
 - ⏳ Pomodoro Timer: Improve productivity with a built-in Pomodoro timer to help you focus on tasks in short, efficient intervals.
 - 🧠 Eisenhower Matrix: Prioritize tasks using the Eisenhower Matrix, a smart decision-making framework to help you focus on what's urgent and important.
 
+## 🏛️ **Architecture**
+
+The app's architecture is transitioning from **MVVM (Model-View-ViewModel)** to **MVI (Model-View-Intent)**. This shift is aimed at leveraging MVI’s strengths for Jetpack Compose's reactive UI model, improving state management, and enhancing the scalability and maintainability of the app.
+
+## 🛠️ **Technologies & Tools for Migration**
+
+- **Frameworks**:
+  - Jetpack Compose for modern UI development
+  - Material Design 3
+  - Orbit MVI
+  - Dagger Hilt for Dependency Injection
+  - Room Database for local data storage
+- **Design Pattern**: MVI with Local Repository, Dependency Injection
+- **Build System**: Gradle
+- **Development Tools**: Android Studio, Git
+
 ## 🎨 **Screenshots**
 
-| Main Screen       | Add New Task       | Set Schedule    |
-| ----------------- | -------------------- | ------------------ |
-| <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/empty%20state.png" alt="screenshot" height="400"/> | <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/new%20task.png" alt="screenshot" height="400"/> | <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/set%20date%20and%20time.png" alt="screenshot" height="400"/> |
-| Set Reminder       | Edit Task            | View All Task |
-| <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/set%20reminder.png" alt="screenshot" height="400"/> | <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/edit%20task.png" alt="screenshot" height="400"/> | <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/all%20task.png" alt="screenshot" height="400"/> |
-| On Search          | View Completed Task   | Open Mini Menu |
-| <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/on%20search%20state.png" alt="screenshot" height="400"/> | <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/view%20completed%20task.png" alt="screenshot" height="400"/> | <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/show%20mini%20menu.png" alt="screenshot" height="400"/> |
-| Full Screen Task |  |  |
-| <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/full%20screen%20task%20detail.png" alt="screenshot" height="400"/> |  |  |
+| Main Screen       | Add New Task       | Set Schedule    | Set Reminder       |
+| ----------------- | -------------------- | ------------------ | ------------------ |
+| <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/empty%20state.png" alt="screenshot" height="400"/> | <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/new%20task.png" alt="screenshot" height="400"/> | <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/set%20date%20and%20time.png" alt="screenshot" height="400"/> | <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/set%20reminder.png" alt="screenshot" height="400"/> |
+ Edit Task            | View All Task | On Search          | View Completed Task   |
+|  <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/edit%20task.png" alt="screenshot" height="400"/> | <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/all%20task.png" alt="screenshot" height="400"/> | <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/on%20search%20state.png" alt="screenshot" height="400"/> | <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/view%20completed%20task.png" alt="screenshot" height="400"/> |
+|  Open Mini Menu |Full Screen Task |
+|  <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/show%20mini%20menu.png" alt="screenshot" height="400"/> | <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/full%20screen%20task%20detail.png" alt="screenshot" height="400"/> |  |  |
