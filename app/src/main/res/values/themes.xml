@@ -1,8 +1,38 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.ToDoApp" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.ToDoApp" parent="Theme.Material3.Light.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/smoked_oak_brown</item>
+        <item name="colorPrimaryVariant">@color/stonewall_grey</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/smoked_oak_brown</item>
+        <item name="colorSecondaryVariant">@color/stonewall_grey</item>
+        <item name="colorOnSecondary">@color/white</item>
+    </style>
+
+    <style name="MenuFloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/light_yellow</item>
+        <item name="rippleColor">@color/stonewall_grey</item>
+        <item name="srcCompat">@drawable/ic_menu</item>
+    </style>
+
+    <style name="AddTaskFloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/light_yellow</item>
+        <item name="rippleColor">@color/stonewall_grey</item>
+        <item name="srcCompat">@drawable/ic_add</item>
+    </style>
+
+    <style name="TasksFloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/light_yellow</item>
+        <item name="rippleColor">@color/stonewall_grey</item>
+        <item name="srcCompat">@drawable/ic_tasks</item>
+    </style>
+
+    <style name="NotificationFloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/light_yellow</item>
+        <item name="rippleColor">@color/stonewall_grey</item>
+        <item name="srcCompat">@drawable/ic_notification</item>
     </style>
 
     <style name="Theme.ToDoApp" parent="Base.Theme.ToDoApp" />

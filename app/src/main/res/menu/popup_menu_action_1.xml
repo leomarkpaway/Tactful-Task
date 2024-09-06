@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_show_details"
+        android:icon="@drawable/ic_full_detail"
+        android:title="Show Details" />
+    <item
+        android:id="@+id/menu_pin"
+        android:icon="@drawable/ic_pin"
+        android:title="Unpin Task" />
+    <item
+        android:id="@+id/menu_update"
+        android:icon="@drawable/ic_edit"
+        android:title="Update" />
+    <item
+        android:id="@+id/menu_delete"
+        android:icon="@drawable/ic_delete_red"
+        android:title="Delete" />
+</menu>

@@ -1,3 +1,79 @@
 <resources>
     <string name="app_name">Todo App</string>
+    <string name="search">Search</string>
+    <string name="today_s_tasks">Today\'s tasks</string>
+    <string name="add_todo">add todo</string>
+    <string name="dialog_title_view_todo">Todo Details</string>
+    <string name="dialog_title_add_todo">Add Todo</string>
+    <string name="dialog_title_update_todo">Update Todo</string>
+    <string name="label_title">Title</string>
+    <string name="hint_description_optional">Description (optional)</string>
+    <string name="hint_description">Description</string>
+    <string name="btn_submit">Submit</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="selected_item_to_delete">You will not be able to recover this task! \n Titled: %1$s \n Scheduled by %2$s %3$s</string>
+    <string name="delete_confirmation">Are you sure do you want to \ndelete?</string>
+    <string name="btn_delete">Yes, delete it!</string>
+    <string name="hint_time_and_date">Time and Date</string>
+    <string name="input_holder_time_and_date">%1$s, %2$s - %3$s</string>
+    <string name="warning_required">Required!</string>
+    <string name="new_task_add_successful">New Task Added</string>
+    <string name="no_description">No Description</string>
+    <string name="close">Close</string>
+    <string name="label_description">Description:</string>
+    <string name="todo_status">Status: %1$s</string>
+    <string name="mon">Mon</string>
+    <string name="tues">Tues</string>
+    <string name="wed">Wed</string>
+    <string name="thur">Thur</string>
+    <string name="fri">Fri</string>
+    <string name="sat">Sat</string>
+    <string name="sun">Sun</string>
+    <string name="notifications">Notifications</string>
+    <string name="tasks">Tasks</string>
+    <string name="hint_new_task">What would you like to do?</string>
+    <string name="default_value_reminder">Today</string>
+    <string name="save">Save</string>
+    <string name="new_task">New Task</string>
+    <string name="task_details">Task Details</string>
+    <string name="update_task">Update Task</string>
+    <string name="task_updated">Task Updated</string>
+    <string name="label">Label</string>
+    <string name="set_schedule">Set Schedule</string>
+    <string name="date_schedule_detail">%1$s %2$s</string>
+    <string name="reminder_detail">Reminder: %1$s</string>
+    <string name="none">None</string>
+    <string name="invalid">Invalid</string>
+    <string name="clear_all">Clear all</string>
+    <string name="empty_today_task">You don\'t have task today \npress + to add new task</string>
+    <string name="empty_all_task">You don\'t have %1$s tasks</string>
+    <string name="empty_notification">You don\'t have notification today</string>
+    <string name="no_result_found">No Result Found</string>
+    <string name="search_result_count">%1$s results for today\'s tasks</string>
+    <string name="all">All</string>
+    <string name="all_tasks">All tasks</string>
+    <string-array name="reminder_options">
+        <item>On time</item>
+        <item>5 mins early</item>
+        <item>10 mins early</item>
+        <item>15 mins early</item>
+        <item>30 mins early</item>
+        <item>1 hr early</item>
+    </string-array>
+    <string-array name="task_filter_options">
+        <item>Pinned</item>
+        <item>Pending</item>
+        <item>Completed</item>
+        <item>Overdue</item>
+    </string-array>
+    <string-array name="array_week">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
 </resources>
