@@ -1,5 +1,5 @@
 ext.configs = [
-        applicationName     : "ToDo App",
+        applicationName     : "Todo App",
         applicationId       : "com.leomarkpaway.todoapp",
         versionCode         : 1,
         versionName         : "1.0",
