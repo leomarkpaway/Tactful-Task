@@ -10,6 +10,13 @@ Tactful Task is a smart task management app designed to help you stay organized 
 - 🔔 Notification Reminder: Get timely reminders for your scheduled tasks to ensure nothing slips through the cracks.
 - 📌 Pin Tasks: Pin important tasks to the top of your list so you can focus on what matters most.
 
+## 🚀 **Future Features**
+Continually working to make Tactful Task even better. Here are some exciting features planned for future updates:
+
+- 📅 Calendar View: Visualize all your tasks on a calendar, making it easier to manage deadlines and get a full view of your schedule.
+- ⏳ Pomodoro Timer: Improve productivity with a built-in Pomodoro timer to help you focus on tasks in short, efficient intervals.
+- 🧠 Eisenhower Matrix: Prioritize tasks using the Eisenhower Matrix, a smart decision-making framework to help you focus on what's urgent and important.
+
 ## 🎨 **Screenshots**
 
 <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/empty%20state.png" alt="screenshot" height="400"/> <img src="https://github.com/leomarkpaway/Todo-App/blob/master/screenshots/new%20task.png" alt="screenshot" height="400"/>
