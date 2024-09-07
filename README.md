@@ -23,7 +23,7 @@ Continually working to make Tactful Task even better. Here are some exciting fea
 
 The app's architecture is transitioning from **MVVM (Model-View-ViewModel)** to **MVI (Model-View-Intent)**. This shift is aimed at leveraging MVI’s strengths for Jetpack Compose's reactive UI model, improving state management, and enhancing the scalability and maintainability of the app.
 
-## 🛠️ **Technologies & Tools for Migration**
+## 🛠️ **Tech Stack for Migration**
 
 - **Frameworks**:
   - Jetpack Compose for modern UI development
