@@ -1,6 +1,6 @@
 ext.configs = [
-        applicationName     : "Todo App",
-        applicationId       : "com.leomarkpaway.todoapp",
+        applicationName     : "Tactful Task",
+        applicationId       : "com.leomarkpaway.tactfultask",
         versionCode         : 1,
         versionName         : "1.0",
         minSdk              : 26,
