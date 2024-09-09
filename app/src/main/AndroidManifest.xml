@@ -14,7 +14,7 @@
         android:theme="@style/Theme.ToDoApp"
         tools:targetApi="31">
         <activity
-            android:name="com.leomarkpaway.todoapp.view.MainActivity"
+            android:name="com.leomarkpaway.tactfultask.view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

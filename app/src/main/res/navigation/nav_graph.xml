@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.leomarkpaway.todoapp.view.home.HomeFragment"
+        android:name="com.leomarkpaway.tactfultask.view.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -23,7 +23,7 @@
 
     <fragment
         android:id="@+id/notificationFragment"
-        android:name="com.leomarkpaway.todoapp.view.notification.NotificationFragment"
+        android:name="com.leomarkpaway.tactfultask.view.notification.NotificationFragment"
         android:label="fragment_notification"
         tools:layout="@layout/fragment_notification" >
         <action
@@ -32,7 +32,7 @@
     </fragment>
     <fragment
         android:id="@+id/allTaskFragment"
-        android:name="com.leomarkpaway.todoapp.view.all_task.AllTaskFragment"
+        android:name="com.leomarkpaway.tactfultask.view.all_task.AllTaskFragment"
         android:label="fragment_all_task"
         tools:layout="@layout/fragment_all_task" >
         <action
@@ -41,7 +41,7 @@
     </fragment>
     <fragment
         android:id="@+id/taskDetailFragment"
-        android:name="com.leomarkpaway.todoapp.view.task_detail.TaskDetailFragment"
+        android:name="com.leomarkpaway.tactfultask.view.task_detail.TaskDetailFragment"
         android:label="fragment_task_detail"
         tools:layout="@layout/fragment_task_detail" >
         <argument
